@@ -588,3 +588,7 @@ sudo /home/ubuntu
 ls
 sudo -i
 code .
+vi jenkinsfile
+ls
+sudo mvn -version
+vi jenkinsfile

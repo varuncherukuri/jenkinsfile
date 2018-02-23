@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
 :wq!
+:wq
 :q!
 :q
 :WQ
@@ -25,19 +25,21 @@
 # Registers:
 
 # File marks:
-'0  31  0  ~/jenkinsfile
-'1  1  0  ~/jenkinsfile
-'2  1  0  /var/lib/jenkins/secrets/initialAdminPassword
-'3  78  10  /etc/default/jenkins
-'4  1  0  ~/hello-world/docker-compose.yml
-'5  2  0  ~/hello-world/docker-compose.yml
-'6  12  0  ~/hello-world/docker-compose.yml
-'7  9  0  ~/hello-world/docker-compose.yml
-'8  3  0  ~/hello-world/docker-compose.yml
-'9  11  9  ~/hello-world/docker-compose.yml
+'0  32  6  ~/jenkinsfile.c
+'1  31  9  ~/jenkinsfile
+'2  1  0  ~/jenkinsfile
+'3  1  0  /var/lib/jenkins/secrets/initialAdminPassword
+'4  78  10  /etc/default/jenkins
+'5  1  0  ~/hello-world/docker-compose.yml
+'6  2  0  ~/hello-world/docker-compose.yml
+'7  12  0  ~/hello-world/docker-compose.yml
+'8  9  0  ~/hello-world/docker-compose.yml
+'9  3  0  ~/hello-world/docker-compose.yml
 
 # Jumplist (newest first):
--'  31  0  ~/jenkinsfile
+-'  32  6  ~/jenkinsfile.c
+-'  1  0  ~/jenkinsfile.c
+-'  31  9  ~/jenkinsfile
 -'  1  0  ~/jenkinsfile
 -'  1  0  /var/lib/jenkins/secrets/initialAdminPassword
 -'  78  10  /etc/default/jenkins
@@ -137,9 +139,25 @@
 
 # History of marks within files (newest to oldest):
 
+> ~/jenkinsfile.c
+	"	32	6
+	^	32	7
+	.	32	6
+	+	9	45
+	+	18	45
+	+	26	45
+	+	32	6
+
 > ~/jenkinsfile
-	"	31	0
-	^	31	0
+	"	31	9
+	.	31	8
+	+	9	50
+	+	30	12
+	+	15	25
+	+	19	31
+	+	23	29
+	+	27	33
+	+	31	8
 
 > /etc/default/jenkins
 	"	78	10
