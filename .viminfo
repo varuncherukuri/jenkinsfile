@@ -25,20 +25,21 @@
 # Registers:
 
 # File marks:
-'0  32  0  ~/jenkinsfile.c
-'1  31  9  ~/jenkinsfile
-'2  1  0  ~/jenkinsfile
-'3  1  0  /var/lib/jenkins/secrets/initialAdminPassword
-'4  78  10  /etc/default/jenkins
-'5  1  0  ~/hello-world/docker-compose.yml
-'6  2  0  ~/hello-world/docker-compose.yml
-'7  12  0  ~/hello-world/docker-compose.yml
-'8  9  0  ~/hello-world/docker-compose.yml
-'9  3  0  ~/hello-world/docker-compose.yml
+'0  35  0  ~/jenkinsfile.c
+'1  32  0  ~/jenkinsfile.c
+'2  31  9  ~/jenkinsfile
+'3  1  0  ~/jenkinsfile
+'4  1  0  /var/lib/jenkins/secrets/initialAdminPassword
+'5  78  10  /etc/default/jenkins
+'6  1  0  ~/hello-world/docker-compose.yml
+'7  2  0  ~/hello-world/docker-compose.yml
+'8  12  0  ~/hello-world/docker-compose.yml
+'9  9  0  ~/hello-world/docker-compose.yml
 
 # Jumplist (newest first):
--'  32  0  ~/jenkinsfile.c
+-'  35  0  ~/jenkinsfile.c
 -'  1  0  ~/jenkinsfile.c
+-'  32  0  ~/jenkinsfile.c
 -'  31  9  ~/jenkinsfile
 -'  1  0  ~/jenkinsfile
 -'  1  0  /var/lib/jenkins/secrets/initialAdminPassword
@@ -138,8 +139,8 @@
 # History of marks within files (newest to oldest):
 
 > ~/jenkinsfile.c
-	"	32	0
-	^	32	7
+	"	35	0
+	^	35	0
 	.	32	6
 	+	9	45
 	+	18	45

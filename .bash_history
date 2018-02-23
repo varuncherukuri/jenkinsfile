@@ -592,3 +592,28 @@ vi jenkinsfile
 ls
 sudo mvn -version
 vi jenkinsfile
+mvn -version
+vi jenkinsfile.c 
+sudo git push origin master
+git pull origin master
+sudo git pull origin master
+sudo git commit -m "first edit"
+sudo git add -A
+sudo git commit -m "first edit"
+sudo git config --global user.name "varuncherukuri"
+sudo git commit --amend --reset-author
+sudo git commit -m "first edit"
+sudo git add jenkinsfile.c
+sudo git commit -m "first edit"
+git remote set-url https://github.com/varuncherukuri/jenkinsfile.git
+sudo git push origin master
+sudo git add remote origin "https://github.com/varuncherukuri/jenkinsfile.git"
+sudo git add jenkinsfile.c origin "https://github.com/varuncherukuri/jenkinsfile.git"
+sudo git add jenkinsfile.c "https://github.com/varuncherukuri/jenkinsfile.git"
+sudo git add jenkinsfile.c
+sudo git commit -m "first edit"
+ls
+vi jenkinsfile.c 
+sudo -su
+sudo -i
+ls
