@@ -25,7 +25,7 @@
 # Registers:
 
 # File marks:
-'0  32  6  ~/jenkinsfile.c
+'0  32  0  ~/jenkinsfile.c
 '1  31  9  ~/jenkinsfile
 '2  1  0  ~/jenkinsfile
 '3  1  0  /var/lib/jenkins/secrets/initialAdminPassword
@@ -37,7 +37,7 @@
 '9  3  0  ~/hello-world/docker-compose.yml
 
 # Jumplist (newest first):
--'  32  6  ~/jenkinsfile.c
+-'  32  0  ~/jenkinsfile.c
 -'  1  0  ~/jenkinsfile.c
 -'  31  9  ~/jenkinsfile
 -'  1  0  ~/jenkinsfile
@@ -134,13 +134,11 @@
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
 
 # History of marks within files (newest to oldest):
 
 > ~/jenkinsfile.c
-	"	32	6
+	"	32	0
 	^	32	7
 	.	32	6
 	+	9	45
