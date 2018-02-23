@@ -1,0 +1,17 @@
+version: '3'
+services:
+  server1:
+    build: 
+      context: /home/ubuntu/varundir
+      dockerfile: Dockerfile
+    image: ubuntu-nginx
+    ports:
+      - "8080:80"
+ 
+  server2:
+    build: 
+      context: /home/ubuntu/hello-world
+      dockerfile: Dockerfile
+    image: ubuntu-apache2
+    ports:
+      - "8081:80"
